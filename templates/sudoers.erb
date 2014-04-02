@@ -5,6 +5,6 @@ Defaults	exempt_group=admin
 Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
 root	ALL=(ALL:ALL) ALL
-%admin,%sudo	ALL=(ALL:ALL) ALL
+%admin,%sudo	ALL=(ALL:ALL) NOPASSWD:ALL
 
 #includedir /etc/sudoers.d
